@@ -12,7 +12,10 @@ function App() {
     const [btnLoading, setBtnLoading] = useState(false);
 
     useEffect(() => {
-        fetch("https://swapi.dev/api/people/1")
+        fetch("https://swapi.dev/api/people/1", {
+            credentials: "same-origin",
+            mode: "cors",
+        })
             .then((response) => {
                 if (response.ok) {
                     const resp = response.json();
