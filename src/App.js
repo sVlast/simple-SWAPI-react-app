@@ -12,9 +12,8 @@ function App() {
     const [btnLoading, setBtnLoading] = useState(false);
 
     useEffect(() => {
-        fetch("https://swapi.dev/api/people/1", {
-            credentials: "same-origin",
-            mode: "cors",
+        fetch("https://swapi.dev/api/people/1/", {
+            credentials: "include",
         })
             .then((response) => {
                 if (response.ok) {
