@@ -1,3 +1,18 @@
+### Simple SWAPI react app
+
+*This app was made for the purposes of university class assignemt*
+
+Simple react app to demonstrate API communication via JSON files
+
+Example hosted on firebase [HERE](https://xml-project-52913.web.app/)
+
+Used yarn as package manager
+
+Uses antd library for components
+
+Uses firebase cli for deployment
+
+----------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
